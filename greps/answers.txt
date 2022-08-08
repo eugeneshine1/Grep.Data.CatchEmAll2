@@ -1,36 +1,53 @@
 # Part 1
 ### a)
-
-
-
+grep "beed" forest/*.1
+grep "blas" forest/*.1
+grep "bulb" forest/*.1
+grep "butt" forest/*.1
+grep "mander$" forest/*.2
+grep "meleon$" forest/*.2
+grep "izard$" forest/*.2
+grep "ivys" forest/*.3
+grep "jigg" forest/*.3
+grep "meow" forest/*.3
+grep "pika" forest/*.3
+grep "psyd" forest/*.4
+grep "squi" forest/*.4
+grep "venu" forest/*.4
+grep "wart" forest/*.4
 
 ### b)
-
-
+done
 
 ### c)
+filescan_00.1
+beedrill, blastoise, bulbasaur, butterfree
 
+filescan_00.2
+charmander, charmeleon, charizard
 
+filescan_00.3
+ivysaur, jigglypuff, meowth, pikachu
 
-
-
-
-
-
-
-
-
-
+filescan_00.4
+psyduck, squirtle, venusaur, wartortle
 
 # Part 2
 ### a)
-
-
-
-
-
+eugene@ZipcodersMBP15 captured % ls| wc -l
+      16
+16-1 (for instruction files) = 15 Pokémon
 
 ### b)
+eugene@ZipcodersMBP15 Grep.Data.CatchEmAll2 % grep "beed" forest/*.1|wc -l
+      40
+
+eugene@ZipcodersMBP15 Grep.Data.CatchEmAll2 % grep "izard$" forest/*.2|wc -l
+      40
+
+eugene@ZipcodersMBP15 Grep.Data.CatchEmAll2 % grep "pika" forest/*.3|wc -l
+      40
+
 
 
 
